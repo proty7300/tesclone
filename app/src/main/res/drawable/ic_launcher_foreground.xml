@@ -1,0 +1,57 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Shadow for first layer -->
+    <path
+        android:fillColor="#15000000"
+        android:pathData="M34,42h38v38h-38z" />
+
+    <!-- Cloned background layer (Electric Blue) -->
+    <path
+        android:pathData="M30,38 h36 a6,6 0 0 1 6,6 v36 a6,6 0 0 1 -6,6 h-36 a6,6 0 0 1 -6,-6 v-36 a6,6 0 0 1 6,-6 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="72"
+                android:endY="80"
+                android:startX="24"
+                android:startY="38"
+                android:type="linear">
+                <item
+                    android:color="#1E40AF"
+                    android:offset="0.0" />
+                <item
+                    android:color="#3B82F6"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Foreground main active layer (Emerald green / Cyber green overlay) -->
+    <path
+        android:pathData="M42,26 h36 a6,6 0 0 1 6,6 v36 a6,6 0 0 1 -6,6 h-36 a6,6 0 0 1 -6,-6 v-36 a6,6 0 0 1 6,-6 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="84"
+                android:endY="68"
+                android:startX="36"
+                android:startY="26"
+                android:type="linear">
+                <item
+                    android:color="#065F46"
+                    android:offset="0.0" />
+                <item
+                    android:color="#10B981"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Overlap connection symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,44 l4,-4 l4,4 l-4,4 z" />
+</vector>

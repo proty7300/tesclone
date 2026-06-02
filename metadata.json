@@ -1,0 +1,6 @@
+{
+  "name": "Clone Space",
+  "description": "A high-performance virtual environment dashboard demonstrating app cloning, sandboxing, and isolated process sandboxing up to 100 profiles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
